@@ -39,4 +39,3 @@ def create():
             return redirect(url_for('member.index'))
     
     return render_template('member/create.html')
-

@@ -42,4 +42,3 @@ def create():
             return redirect(url_for('book.index'))
     
     return render_template('book/create.html')
-
